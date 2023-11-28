@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Encabezado de Nuestra Pagina Web*/
+header{
+    background: rgb(55, 55, 231);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/*Navegacion de Nuestra Pagina Web*/
+nav{
+    background: yellow;
+}
+nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    background: rgb(7, 7, 7);
+    justify-content: end;
+}
+nav > ul > li{
+    /*background: orange;*/
+    padding: 15px;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+/*Cuerpo de Nuestra Pagina Web*/
+main > section{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: auto;
+}
+#imagen{
+    width: 100%;
+    height: 500px;
+}
+.section-tratamientos{
+    /*background-color: aqua;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.section-tratamientos > article{
+    /*background-color: blue;*/
+    height: auto;
+    display: flex;
+    
+}
+div{
+    /*background-color: yellow;*/
+    padding: 5px;
+    margin: 5px;
+    
+}
+div > img{
+    width: 150px;
+    height: 150px;
+    padding-top: 15px;
+    /*background-color: blue;*/
+}
+p{
+    font-size: 18px;
+}
+h3{
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+}
+/*Pie de Nuestra Pagina Web*/
+footer{
+    margin-top: 40px;
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
